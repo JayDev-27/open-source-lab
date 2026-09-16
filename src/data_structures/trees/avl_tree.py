@@ -1,0 +1,7 @@
+"""AVL tree self-balancing logic."""
+class AVLNode:
+    def __init__(self, key):
+        self.key = key
+        self.left = None
+        self.right = None
+        self.height = 1
